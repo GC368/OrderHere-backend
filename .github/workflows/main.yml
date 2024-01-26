@@ -54,4 +54,4 @@ jobs:
     - name: Deploy to ECS
       run: |
         
-         aws ecs update-service --cluster ecs-cluster --service service --task-definition orderhere
+         aws ecs update-service --cluster ecs-cluster --service tf --task-definition orderhere1
